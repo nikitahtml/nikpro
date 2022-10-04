@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>
+  index.js
+     </title>  
+     <link rel="stylesheet" href="style.css">
+ <style>
+ table {
+  color: blue;
+ }
+ </style>
+   </head>
+<body>
+  
+  <div class="container">
+    <div class="item input"></div>
+
+    <div class="item" onclick="f('sin')">sin</div>
+    <div class="item" onclick="f('cos')">cos</div>
+    <div class="item" onclick="f('tan')">tan</div>
+    <div class="item" onclick="f('ctg')">ctg</div>
+    <div class="item" onclick="">deg</div>
+
+    <div class="item" onclick="operantion('^')">x^y</div>
+    <div class="item" onclick="log('Ig')">lg</div>
+    <div class="item" onclick="log('In')">In</div>
+    <div class="item" onclick="insert('(')">(</div>
+    <div class="item" onclick="insert(')')">)</div>
+
+    <div class="item" onclick="operantion('sqrt')">&radic;x</div>
+    <div class="item clean"onclick="clean()">C</div>
+    <div class="item back"onclick = "back()">&larr;</div>
+    <div class="item percent" onclick="percent()">%</div>
+    <div class="item boss" onclick="insert('/')">&divide;</div>
+    
+    <div class="item" onclick="insert('7')">7</div>
+    <div class="item" onclick="insert('8')">8</div>
+    <div class="item" onclick="insert('9')">9</div>
+    <div class="item mul" onclick="insert('*')">&times;</div>
+
+    <div class="item" onclick="fact()">x!</div>
+    <div class="item" onclick="insert('4')">4</div>
+    <div class="item" onclick="insert('5')">5</div>
+    <div class="item" onclick="insert('6')">6</div>
+    <div class="item sub" onclick="insert('-')">-</div>
+
+    
+    <div class="item" onclick="operantion('^-1')">x<span class="upper">-1</span>  </div>
+    <div class="item" onclick="insert('1')">1</div>
+    <div class="item" onclick="insert('2')">2</div>
+    <div class="item" onclick="insert('3')">3</div>
+    <div class="item add" onclick="insert('+')">+</div>
+
+    <div class="item" onclick="pi()">&prod;</div>
+    <div class="item" onclick="e()">e</div>
+    <div class="item egual" onclick="egual()">=</div>
+    <div class="item zero"onclick = "insert('0')">0</div>
+    <div class="item" onclick="insert('.')">.</div>
+  </div>
+
+
+
+ <h1>Я изучаю html и css</h1>   
+<p> <b>я изучая </b> <br> <em> JavaScript</em> </p>
+<a  href="https://www.youtube.com/watch?v=Xex7nJlzMmc">
+    ролик Синдиката
+</a> 
+
+<ul>
+<li>первый элемент списка</li>
+<li>второй элемент списка</li>
+<li> <a href="https://ya.ru">Yandex</a> ссылка на главную страницу </li>
+</ul>
+
+
+<hr>
+
+    <table border="2">
+     <thead>
+      <tr>
+     <th>Название овощей</th>   
+      <th>кол-во</th>
+      </tr>
+
+     </thead>
+      <tbody>
+      <tr>
+        <td>помидор</td>
+         <td>5</td>
+      </tr>
+
+      <tr>
+        <td>огурец </td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td colspan="2">итог:12</td>
+      </tr>
+
+      </tbody>
+        <tfoot>
+
+        </tfoot>
+       
+        <script src="index.js">
+
+        </script>
+
+
+     </table>
+
+     <img src="data:image/jpeg;base64,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" alt="">
+      
+<input type="text">
+
+<input type="submit" name="" value="отправить">
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
