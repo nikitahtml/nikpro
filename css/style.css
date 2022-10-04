@@ -1,0 +1,76 @@
+table {
+ color: green;
+
+ border-radius: 8px;
+border: 2px solid red;
+ }
+
+  [colspan="2"] {
+color: orange;
+  }
+
+
+
+  body {
+    
+    user-select: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    background-color: #212121;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 450px;
+    font-family: "Calibri";
+  }
+  .item {
+    background-color: #303030;
+    border-radius: 50%;
+    color:#fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.input {
+
+  height: auto;
+  font-size: 30px;
+  height: 60px;
+  grid-column: 1/-1; 
+
+  padding: 0;
+}
+
+
+.upper  {
+  font-size:  20px;
+  margin-left: 3px;
+  margin-top: -20px;
+}
+
+.clean, .back,.percent, .sub, .mul, .add, .boss{
+  color:#ff7c01
+}
+
+
+.egual{
+  background-color:#ff7c01;
+}
+
+
+
+
+
+
+ 
+
+
+
+
